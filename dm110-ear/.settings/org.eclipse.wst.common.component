@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="dm110-ear-1.0">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+                        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="dm110-api-1.0.jar" deploy-path="/lib" handle="module:/resource/dm110-api/dm110-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dm110-impl-1.0.jar" deploy-path="/lib" handle="module:/resource/dm110-impl/dm110-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dm110-web-1.0.war" deploy-path="/" handle="module:/resource/dm110-web/dm110-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dm110-ejb-1.0.jar" deploy-path="/" handle="module:/resource/dm110-ejb/dm110-ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>
